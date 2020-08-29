@@ -4,6 +4,7 @@
 #include "gl_helpers.h"
 #include "resource_manager.h"
 #include "scenario.h"
+#include "scenario_bsp.h"
 #include "hitscan.h"
 #include "pprint.hpp"
 #include "assert.h"

@@ -94,6 +94,9 @@
  - [x] Get build working in emscripten again
  - [ ] Setup CMakelists.txt
 
+## Random C++ stuff
+ - [ ] Extract simple shared structs into a header?
+
 ## Intorduce a debugging front-end
  - [ ] Add a drop-down that lets you choose which scenario to run
    - [ ] Each resource needs to be cleaned up.

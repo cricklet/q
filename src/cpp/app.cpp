@@ -6,6 +6,8 @@
 #include "resources.h"
 #include "resource_manager.h"
 #include "scenario.h"
+#include "scenario_bsp.h"
+#include "scenario_physics.h"
 
 App::App() {
   _messageLogger = make_shared<MessageLogger>();
@@ -13,7 +15,8 @@ App::App() {
 
   // _currentScenario = make_shared<TestScenario>();
   // _currentScenario = make_shared<PopTartScenario>();
-  _currentScenario = make_shared<BSPScenario>();
+  // _currentScenario = make_shared<BSPScenario>();
+  _currentScenario = make_shared<PhysicsScenario>();
 }
 
 void App::loop(GLFWwindow* window) {
